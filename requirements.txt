@@ -1,7 +1,7 @@
 fastapi
 uvicorn
 python-multipart
-tensorflow
+tensorflow-cpu==2.17.0
 pillow
 numpy
 requests
