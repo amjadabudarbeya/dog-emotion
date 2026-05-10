@@ -18,7 +18,7 @@ MODEL_PATH = "dog_model_final.keras"
 if not os.path.exists(MODEL_PATH):
     gdown.download(
         url = "https://drive.google.com/uc?id=15s4lneWlkWg_Acf2NE5szuIZkBXnR3bl",
-        MODEL_PATH,
+        output=MODEL_PATH,
         quiet=False
     )
 
